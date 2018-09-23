@@ -1,0 +1,6 @@
+node_modules/
+public/dist/
+.env.test
+.env.development
+coverage
+src/tests/components/__snapshots__/
