@@ -6,7 +6,7 @@ const config = {
   databaseURL: process.env.FIREBASE_DATABASE_URL,
   projectId: process.env.FIREBASE_PROJECT_ID,
   storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
 };
 
 firebase.initializeApp(config);
@@ -65,10 +65,6 @@ export { firebase, googleAuthProvider, database as default };
 //   amount: 109500,
 //   createdAt: 976123498763
 // });
-
-
-
-
 
 
 // // database.ref('notes/-Krll52aVDQ3X6dOtmS7').remove();
